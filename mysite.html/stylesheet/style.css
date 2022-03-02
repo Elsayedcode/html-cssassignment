@@ -1,0 +1,283 @@
+* {
+    box-sizing:border-box;
+    font-family:  'Cairo', sans-serif, Arial, Helvetica;
+}  
+/* dit is een bannerbeeld samen met de logo van de site*/
+.img1{
+    width:100%;
+    border-radius: 10px;
+
+}
+/* Hier heb ik flexbox gebruikt om de 2 elementen(menubar, sociaalmedia knoppen) in de header naar recht en links te kunnen positioneren*/
+header{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    border-radius: 10px;
+    background-color: #c4e3f8;
+    width:100%;
+    padding:10px;
+    color: rgb(10, 1, 1);
+}
+.button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #72bef0;
+    border: 2px solid rgb(84, 162, 214);
+}
+a:link,
+a:visited {
+  color: rgb(12, 12, 12);
+  text-align:center;
+  width: 70px;
+  text-decoration:none;
+  font-size: 20px ;
+  font-weight: bold;
+  
+}
+a:hover,
+a:active {
+  color: #c4e3f8;
+  border-radius: 15px; 
+}
+
+.socialimg{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    width:20%;
+    order:1;
+}
+
+.flexcontainer{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    width:100%;
+    }
+.container{
+   
+    border-radius: 10px;
+        width:70%;
+        margin-left: 10px; 
+        padding-bottom: 20px;
+        margin-top: 30px;    
+    }
+    .proef{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .gratis{
+        margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .responsive{
+        width:60%;
+        height:0;
+        padding-bottom:40.25%;
+        padding-top: 20px;
+        position:relative;    
+    }
+    .responsive iframe{
+        position:absolute;
+        width:90%;
+        height:80%;    
+    }  
+    /*Bij de volgende classen heb ik ook flexbox gebruikt om element (<p> en <img>) naar recht en links te posiotioneren*/
+    .proefduik{
+        display:flex;
+        margin-bottom:20px;    
+    }
+    .proefdes{
+        width:65%;
+        order: 0;
+        
+    }
+    .proefimg{
+        order: 1;
+        width:35%;
+        padding-top: 40px;
+        
+           
+    }
+    .bubble{                    
+        display:flex;
+        
+    }
+    .bubbleimg{
+        order:0;
+        width:35%;
+        padding-top: 20px;
+        margin-top:10px;
+       
+    }
+    .bubbledes{
+        order:1;
+        width: 60%;
+        margin-left:30px;
+        
+    }
+    .discover{
+        display:flex;
+        padding-top:30px;
+        margin-top:20px;
+        
+    }
+    .discoverdes{
+        order:0;
+        width:65%;
+        margin-right: 40px;
+        
+    }
+    .discoverimg{
+        order:1;
+        width:30%;
+        padding-top:30px;
+    }
+
+    .scuba{
+        margin-bottom:20px;
+        display: flex;
+    }
+    .scubaimg{
+        order:0;
+        width:30%;
+        padding-top:80px;
+            
+    }
+    .scubades{
+        order:1;
+        width:65%;
+        padding-left:20px;
+        
+    }
+    .open{
+        margin-bottom:20px;
+        display:flex;
+    }
+    .opendes{
+       order:0;
+       width:60%;
+       margin-right: 40px;
+    }
+    .openimg{
+        order:1;
+        width:35%;
+        padding-top:100px;
+    }
+    .advanced{
+        margin-bottom:20px;
+        display:flex;
+
+    }
+    .advanceddes{
+          order:1;
+          width:60%;
+    }
+    .advancedimg{
+        order:0;
+          width:30%;
+          margin-right: 40px;
+          margin-top:20px;
+    }
+    
+.flex{
+    border-radius: 10px;
+    padding-top: 20px;
+    width:25%;
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: #c4e3f8;
+    }
+    .form-box{
+        margin:10px; 
+        box-sizing: border-box;
+        font-size: 16px;
+        resize: none;  
+    }
+    /* Hier heb ik input functie 100% breedte gegeven om responsief te zijn met de breedte van de scherm*/
+    input{
+        width:90%;
+        padding: 15px;
+    }
+    input[type=submit] {
+        border-radius: 5px;
+        width:90%;
+        background-color: #72bef0;
+        border: 2px solid rgb(84, 162, 214);  
+    }
+
+    .form-box textarea {
+        width: 100%;
+        height: 200px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none;   
+    }
+    
+.contact{
+width:80%;
+}
+.contact-form {
+    width:50%;
+    margin-bottom: 15px;
+    
+}
+.contact textarea {
+    width: 150%;
+    height: 200px;
+    
+}
+.overons{
+    text-align: center;
+    margin:20px;
+}
+
+
+footer{
+    text-align: center;
+    padding:10px;
+    margin-top:20px;
+    border:5px solid #2b97df;
+    border-radius: 10px ;
+    background-color: #c4e3f8;
+    width:100%;
+    height: 50px;
+    color: rgb(10, 1, 1);
+}
+/* Zoals u kunt zien heb ik de breedte van classen aangepast met de breedte van de scherm en de achtergrond kleur verandert*/
+@media screen and (max-width: 450px) {
+    .container {width: 100%;}
+    .menu {width: 100%;}
+    .flex {width: 100%;}
+    .socialimg {width: 100%;}
+    }
+@media screen and (min-width: 450px) {
+    .flex {width: 28%;}
+    .container {width: 65%;}
+    .menu {width: 65%;}
+    .socialimg {width: 28%;}
+    html {background-color: #f3ca71;}
+  }
+  @media screen and (min-width: 1024px) {
+    html {background-color: #ffffff;}
+  }
+ 
+
+
+
+
+
+
+
+    
+    
+
+
+   
